@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pexels-mohammed-ajwad-1449834.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+p{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 200px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 40px;
+}
+.box p{
+    font-size: 20px;
+}
+@media screen and (max-width:630px){
+    p{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 75px;
+    }
+    .container{
+        gap: 15px;
+    }
+    .box{
+        gap: 10px;
+        font-size: 20px;
+    }
+}
