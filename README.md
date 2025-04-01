@@ -20,7 +20,7 @@ I learned this project from **[Tutor Joe Stanley](https://www.youtube.com/@tutor
 ## 🛠️ How to Use
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/Abishekkhanna/New-Year-Countdown-Timer.git
    ```
 2. Open `index.html` in your browser.
 
